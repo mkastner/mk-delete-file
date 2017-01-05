@@ -1,0 +1,30 @@
+{
+  "name": "mk-delete-file",
+  "version": "0.0.1",
+  "description": "delete file promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node --harmony test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkastner/mk-kss.git"
+  },
+  "keywords": [
+    "file",
+    "delete",
+    "promise"
+  ],
+  "author": "John Galt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkastner/mk-kss/issues"
+  },
+  "homepage": "https://github.com/mkastner/mk-kss#readme",
+  "devDependencies": {
+    "mk-log": "git+https://github.com/mkastner/mk-log.git",
+    "mk-write-text-file": "git+https://github.com/mkastner/mk-write-text-file.git",
+    "mk-fs-stat": "git+https://github.com/mkastner/mk-fs-stat.git",
+    "tape": "^4.6.3"
+  }
+}
