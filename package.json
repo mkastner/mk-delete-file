@@ -1,14 +1,14 @@
 {
   "name": "mk-delete-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "delete file promise",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node --harmony test/*-test.js"
+    "test": "NODE_ENV=test node test/*.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkastner/mk-kss.git"
+    "url": "git+https://github.com/mkastner/mk-delete-file.git"
   },
   "keywords": [
     "file",
@@ -18,13 +18,13 @@
   "author": "John Galt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mkastner/mk-kss/issues"
+    "url": "https://github.com/mkastner/mk-delete-file/issues"
   },
-  "homepage": "https://github.com/mkastner/mk-kss#readme",
+  "homepage": "https://github.com/mkastner/mk-delete-file#readme",
   "devDependencies": {
     "mk-log": "git+https://github.com/mkastner/mk-log.git",
-    "mk-write-text-file": "git+https://github.com/mkastner/mk-write-text-file.git",
-    "mk-fs-stat": "git+https://github.com/mkastner/mk-fs-stat.git",
+    "mk-write-text-file": "git+https://github.com/mkastner/mk-write-text-file.git#v0.0.2",
+    "mk-fs-stat": "git+https://github.com/mkastner/mk-fs-stat.git#v0.0.2",
     "tape": "^4.6.3"
   }
 }
